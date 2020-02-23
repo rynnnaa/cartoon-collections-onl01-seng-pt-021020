@@ -7,7 +7,8 @@ end
 def summon_captain_planet(planteers)
   arr = []
   planteers.map do |planteer|
-    arr << planteer.upcase
+    planteer.capitalize + '!'
+    arr << planteer
     return arr
   end
 end
