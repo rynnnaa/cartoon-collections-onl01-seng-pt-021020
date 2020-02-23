@@ -25,7 +25,6 @@ end
 def find_the_cheese(arr_of_str)
   cheese_types = ["cheddar", "gouda", "camembert"]
   arr_of_str.include? do |cheese|
-    return
     true
   else
     nil
