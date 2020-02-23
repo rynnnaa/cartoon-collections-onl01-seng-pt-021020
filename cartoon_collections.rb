@@ -5,11 +5,8 @@ def roll_call_dwarves(dwarf_names)
 end
 
 def summon_captain_planet(planteers)
-  arr = []
   planteers.map do |planteer|
     planteer.capitalize + '!'
-    arr << planteer
-    return arr
   end
 end
 
