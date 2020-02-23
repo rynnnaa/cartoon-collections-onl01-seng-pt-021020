@@ -25,6 +25,8 @@ def long_planeteer_calls(arr)
   arr.any? {|planteer|planeteer.length > 4}
 end
 
+# any enumerator will return boolean
+
 
 def find_the_cheese(arr_of_str)
   cheese_types = ["cheddar", "gouda", "camembert"]
