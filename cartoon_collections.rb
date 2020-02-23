@@ -28,5 +28,5 @@ def find_the_cheese(arr_of_str)
     true
   else
     nil
-    
+  end
 end
