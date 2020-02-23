@@ -22,7 +22,7 @@ end
 # end
 
 def long_planeteer_calls(arr)
-  arr.any? {|planteer|planeteer.length > 4}
+  arr.any? {|call|call.length > 4}
 end
 
 # any enumerator will return boolean
