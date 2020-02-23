@@ -21,6 +21,9 @@ end
 #   end
 # end
 
+def long_planeteer_calls(arr)
+  arr.any? {
+
 
 def find_the_cheese(arr_of_str)
   cheese_types = ["cheddar", "gouda", "camembert"]
